@@ -3,7 +3,7 @@ import os
 import numpy as np
 from gym import utils
 from gym.envs.mujoco import mujoco_env
-import xml.etree.ElementTree as et
+import defusedxml.ElementTree as et  # Use defusedxml for safe XML parsing
 
 import mujoco_py
 
