@@ -4,7 +4,7 @@ import json
 import numpy as np
 from gym import utils
 from gym.envs.mujoco import mujoco_env
-import xml.etree.ElementTree as et
+import defusedxml.ElementTree as et
 
 import mujoco_py
 
